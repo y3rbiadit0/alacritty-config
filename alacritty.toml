@@ -1,0 +1,149 @@
+import = [
+    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+# [colors.bright]
+# black = "0x686868"
+# blue = "0x59C2FF"
+# cyan = "0x95E6CB"
+# green = "0xC2D94C"
+# magenta = "0xFFEE99"
+# red = "0xF07178"
+# white = "0xFFFFFF"
+# yellow = "0xFFB454"
+#
+# [colors.normal]
+# black = "0x01060E"
+# blue = "0x53BDFA"
+# cyan = "0x90E1C6"
+# green = "0x91B362"
+# magenta = "0xFAE994"
+# red = "0xEA6C73"
+# white = "0xC7C7C7"
+# yellow = "0xF9AF4F"
+#
+# [colors.primary]
+# background = "0x0A0E14"
+# foreground = "0xB3B1AD"
+#
+[font]
+size = 14.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u0006v"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006s"
+key = "D"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006x"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006h"
+key = "H"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006j"
+key = "J"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006k"
+key = "K"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006l"
+key = "L"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00061"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00062"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00063"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00064"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00065"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00066"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00067"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00068"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00069"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006H"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006J"
+key = "Down"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006K"
+key = "Up"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006L"
+key = "Right"
+mods = "Command"
+
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+opacity=0.95
+[window.padding]
+x = 0
+y = 0
